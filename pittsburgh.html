@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<Head>
+   <title>Welcome to Pittsburgh</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
+</Head>
+
+ <body>
+
+    <header><h1>Pittsburgh</h1>
+        <div class ="header-info">
+            <img src="Pittsburgh.jpeg" alt = "Photo of Pittsburgh night view">
+            <div class = 'centerd'>
+                Pittsburgh, the Steel City of USA
+            </div> 
+        </div>
+    </header>
+    <nav>
+       <ul class="navbar-nav">
+          <li class="nav-item">
+            <div>
+                <img class = "nav-pic"src="Pennsylvania.jpeg">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </div>
+          </li>
+          <li class="nav-item">
+             <img class = "nav-pic"src="Harrisburg.jpeg">
+             <a class="nav-link" href="harrisburg.html">Harrisburg</a>
+          </li>
+          <li class="nav-item">
+             <img class = "nav-pic"src="Philadelphia.jpeg">
+             <a class="nav-link" href="philadelphia.html">Philadelphia</a>
+          </li>
+          <li class="nav-item">
+             <img class = "nav-pic"src="Pittsburgh.jpeg">
+             <a class="nav-link" href="pittsburgh.html">Pittsburgh</a>
+          </li>
+        </ul>
+     </nav>
+ 
+    <section>
+        <h1>Overview</h1>
+        <p>Pittsburgh is a city in western Pennsylvania at the junction of 3 rivers. Its Gilded Age sites, including the Carnegie Museum of Natural History, the Carnegie Museum of Art and the Phipps Conservatory and Botanical Gardens, speak to its history as an early-20th-century industrial capital. In the North Shore neighborhood are the modern Andy Warhol Museum, Heinz Field football stadium and PNC Park baseball stadium. (Source:Wikipedia)</p>
+        <table>
+            <tr>
+                <th>#</th>
+                <th>Fact</th>
+                <th>Information</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Population</td>
+                <td>302,898</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Year the city was incorporated</td>
+                <td>1816</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Region of the state</td>
+                <td>Western Pennsylvania</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>classification</td>
+                <td>Urban suburban mix</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Average Income</td>
+                <td>34,022 USD (2022)</td>
+            </tr>
+        </table>
+        <h1>Fun Fact</h1>
+        <ol class="list-group">
+            <li class="list-group-item">Pittsburgh has 446 bridges, more than Venice, Italy, earning it the nickname "The City of Bridges".</li>
+            <li class="list-group-item">Pittsburgh is the birthplace of the Klondike bar, Heinz ketchup, and the Big Mac, which was invented in 1967 at a Uniontown McDonald's.</li>
+            <li class="list-group-item">The first damp snus brand in the United States, Copenhagen, was launched in Pittsburgh in 1822.</li>
+        </ol>
+        <form id="myForm">
+            <h1>Contact Us</h1>
+            <p>Please enter information below:</p>
+            <label for="firstName">First name:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="First name">
+            <label for="lastName">Last name:</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Last name">
+            <label for="emailAddr">Email address:</label>
+            <input type="email" name="emailAddr" id="emailAddr" placeholder="Email address" onkeyup="checkemail()">
+            <label for="confirmEmail">Confirm your email:</label>
+            <input type="email" name="confirmEmail" id="confirmEmail" placeholder="Confirm your email" onkeyup="checkemail()">
+            <span id ="message"></span>
+            <label for="askQusetion">Ask a question:</label>
+            <input type="text" id="askQusetion" name="askQusetion" placeholder="Write your question here">        
+            <input type="button" id="submit" value="Submit">
+        </form>
+     </section>
+     <aside><h3 id="asideTitle">Information Links</h3>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a class="list-group" href="https://pittsburghpa.gov/" target="_blank">Goverment Offical Website</a>
+            </li>
+            <li class="list-group-item">
+                <a class="list-group" href="https://en.wikipedia.org/wiki/History_of_Pittsburgh" target="_blank">History</a>
+            </li>
+            <li class="list-group-item">
+                <a class="list-group" href="https://www.usnews.com/best-graduate-schools/top-education-schools/university-of-pittsburgh-pittsburgh-campus-06178" target="_blank">Education</a>
+            </li>
+        </ul>
+     </aside>
+ </body>
+ </html>

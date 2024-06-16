@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<Head>
+   <title>Welcome to Pennsylvania</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
+</Head>
+
+<body>
+    <header><h1>Pennsylvania</h1>
+        <div class ="header-info">
+            <img src="Pennsylvania view.jpeg" alt = "Photo of Pennsylvania night view">
+            <div class = 'centerd'>
+                Pennsylvania the Keystone State
+            </div> 
+        </div>
+    </header>
+    <nav>
+       <ul class="navbar-nav">
+          <li class="nav-item">
+            <div>
+                <img class = "nav-pic"src="Pennsylvania.jpeg">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </div>
+          </li>
+          <li class="nav-item">
+             <img class = "nav-pic"src="Harrisburg.jpeg">
+             <a class="nav-link" href="Harrisburg.html">Harrisburg</a>
+          </li>
+          <li class="nav-item">
+             <img class = "nav-pic"src="Philadelphia.jpeg">
+             <a class="nav-link" href="Philadelphia.html">Philadelphia</a>
+          </li>
+          <li class="nav-item">
+             <img class = "nav-pic"src="Pittsburgh.jpeg">
+             <a class="nav-link" href="Pittsburgh.html">Pittsburgh</a>
+          </li>
+       </ul>
+    </nav>
+ 
+    <section>
+        <h1>Overview</h1>
+        <p>Pennsylvania, constituent state of the United States of America, one of the original 13 American colonies.  It is bounded to the north by Lake Erie and New York state; to the east by New York and New Jersey; to the south by Delaware, Maryland, and West Virginia; and to the west by the panhandle of West Virginia and by Ohio. (Source:Wikipedia)</p>
+        <h1>Popular Spots</h1>
+        <ol class="list-group">
+            <li class="list-group-item">
+                <a class="list-group" href="https://home.nps.gov/inde/learn/historyculture/stories-libertybell.htm" target="_blank">Liberty Bell</a>
+            </li>
+            <li class="list-group-item">
+                <a class="list-group" href="https://www.chocolateworld.com/" target="_blank">Hershey's Chocolate World</a>
+            </li>
+            <li class="list-group-item">
+                <a class="list-group" href="https://www.discoverlancaster.com/amish/" target="_blank">Amish country</a>
+            </li>
+        </ol>
+        
+        <table>
+            <h1>Popular Cities</h1>
+            <tr>
+              <th>City</th>
+              <th>Famous Dish</th>
+              <th>Population</th>
+            </tr>
+            <tr>
+                <td>Harrisburg</td>
+                <td>Dutch scrapple</td>
+                <td>50,183</td>
+              </tr>
+            <tr>
+              <td>Philadelphia</td>
+              <td>Cheesesteak</td>
+              <td>1.567 million</td>
+            </tr>
+            <tr>
+              <td>Pittsburgh</td>
+              <td>Prantl's Burnt Almond Torte</td>
+              <td>302,898</td>
+            </tr>
+        </table>
+
+        <form id="myForm">
+            <h1>Contact Us</h1>
+            <p>Please enter information below:</p>
+            <label for="firstName">First name:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="First name">
+            <label for="lastName">Last name:</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Last name">
+            <label for="emailAddr">Email address:</label>
+            <input type="email" name="emailAddr" id="emailAddr" placeholder="Email address" onkeyup="checkemail()">
+            <label for="confirmEmail">Confirm your email:</label>
+            <input type="email" name="confirmEmail" id="confirmEmail" placeholder="Confirm your email" onkeyup="checkemail()">
+            <span id ="message"></span>
+            <label for="askQusetion">Ask a question:</label>
+            <input type="text" id="askQusetion" name="askQusetion" placeholder="Write your question here">        
+            <input type="button" id="submit" value="Submit">
+        </form>
+ 
+    </section>
+ 
+    <aside><h3 id="asideTitle">Information Links</h3>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a class="list-group" href="https://www.pa.gov/" target="_blank">Goverment Offical Website</a>
+            </li>
+            <li class="list-group-item">
+                <a class="list-group" href="https://en.wikipedia.org/wiki/History_of_Pennsylvania" target="_blank">History</a>
+            </li>
+            <li class="list-group-item">
+                <a class="list-group" href="https://www.education.pa.gov/Pages/default.aspx" target="_blank">Education</a>
+            </li>
+        </ul>
+    </aside>
+
+</body>
+</html>

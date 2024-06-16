@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<Head>
+   <title>Welcome to Philadelphia</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
+</Head>
+
+ <body>
+
+    <header><h1>Philadelphia</h1>
+        <div class ="header-info">
+            <img src="Philadelphia.jpeg" alt = "Photo of Philadelphia night view">
+            <div class = 'centerd'>
+                Philadelphia, Pennsylvania’s largest city
+            </div> 
+        </div>
+    </header>
+    <nav>
+       <ul class="navbar-nav">
+          <li class="nav-item">
+            <div>
+                <img class = "nav-pic"src="Pennsylvania.jpeg">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </div>
+          </li>
+          <li class="nav-item">
+             <img class = "nav-pic"src="Harrisburg.jpeg">
+             <a class="nav-link" href="harrisburg.html">Harrisburg</a>
+          </li>
+          <li class="nav-item">
+             <img class = "nav-pic"src="Philadelphia.jpeg">
+             <a class="nav-link" href="philadelphia.html">Philadelphia</a>
+          </li>
+          <li class="nav-item">
+             <img class = "nav-pic"src="Pittsburgh.jpeg">
+             <a class="nav-link" href="pittsburgh.html">Pittsburgh</a>
+          </li>
+        </ul>
+     </nav>
+ 
+    <section>
+        <h1>Overview</h1>
+        <p>Philadelphia, Pennsylvania’s largest city, is notable for its rich history, on display at the Liberty Bell, Independence Hall (where the Declaration of Independence and Constitution were signed) and other American Revolutionary sites. Also iconic are the steps of the Philadelphia Museum of Art, immortalized by Sylvester Stallone’s triumphant run in the film "Rocky." (Source:Wikipedia)</p>
+        <table>
+            <tr>
+                <th>#</th>
+                <th>Fact</th>
+                <th>Information</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Population</td>
+                <td>1.567 million</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Year the city was incorporated</td>
+                <td>1701</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Region of the state</td>
+                <td>Southeastern Pennsylvania</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>classification</td>
+                <td>Urban</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Average Income</td>
+                <td>32,808 USD (2022)</td>
+            </tr>
+        </table>
+        <h1>Fun Fact</h1>
+        <ol class="list-group">
+            <li class="list-group-item">The Cheesesteak was invented in Philadelphia.</li>
+            <li class="list-group-item">The United States Declaration of Independence was signed here.</li>
+            <li class="list-group-item">Rocky Steps at the Philadelphia Museum of Art.</li>
+        </ol>
+        <form id="myForm">
+            <h1>Contact Us</h1>
+            <p>Please enter information below:</p>
+            <label for="firstName">First name:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="First name">
+            <label for="lastName">Last name:</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Last name">
+            <label for="emailAddr">Email address:</label>
+            <input type="email" name="emailAddr" id="emailAddr" placeholder="Email address" onkeyup="checkemail()">
+            <label for="confirmEmail">Confirm your email:</label>
+            <input type="email" name="confirmEmail" id="confirmEmail" placeholder="Confirm your email" onkeyup="checkemail()">
+            <span id ="message"></span>
+            <label for="askQusetion">Ask a question:</label>
+            <input type="text" id="askQusetion" name="askQusetion" placeholder="Write your question here">        
+            <input type="button" id="submit" value="Submit">
+        </form>
+     </section>
+     <aside><h3 id="asideTitle">Information Links</h3>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a class="list-group" href="https://www.phila.gov/" target="_blank">Goverment Offical Website</a>
+            </li>
+            <li class="list-group-item">
+                <a class="list-group" href="https://en.wikipedia.org/wiki/Philadelphia" target="_blank">History</a>
+            </li>
+            <li class="list-group-item">
+                <a class="list-group" href="https://www.philasd.org/" target="_blank">Education</a>
+            </li>
+        </ul>
+     </aside>
+ </body>
+ </html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<Head>
+   <title>Welcome to Harrisburg</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
+</Head>
+
+ <body>
+
+    <header><h1>Harrisburg</h1>
+        <div class ="header-info">
+            <img src="Harrisburg.jpeg" alt = "Photo of Harrisburg night view">
+            <div class = 'centerd'>
+                Harrisburg, the state capital of Pennsylvania
+            </div> 
+        </div>
+    </header>
+    <nav>
+       <ul class="navbar-nav">
+          <li class="nav-item">
+            <div>
+                <img class = "nav-pic"src="Pennsylvania.jpeg">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </div>
+          </li>
+          <li class="nav-item">
+             <img class = "nav-pic"src="Harrisburg.jpeg">
+             <a class="nav-link" href="harrisburg.html">Harrisburg</a>
+          </li>
+          <li class="nav-item">
+             <img class = "nav-pic"src="Philadelphia.jpeg">
+             <a class="nav-link" href="philadelphia.html">Philadelphia</a>
+          </li>
+          <li class="nav-item">
+             <img class = "nav-pic"src="Pittsburgh.jpeg">
+             <a class="nav-link" href="pittsburgh.html">Pittsburgh</a>
+          </li>
+        </ul>
+     </nav>
+ 
+    <section>
+        <h1>Overview</h1>
+        <p>Harrisburg, the state capital of Pennsylvania, sits on the Susquehanna River. The National Civil War Museum illustrates both sides of the conflict via interactive exhibits and re-enactments. Next to the imposing Capitol building, the State Museum of Pennsylvania celebrates the area’s natural, cultural and industrial heritage. East of the city, Hersheypark is a chocolate-themed park offering rides and entertainment. (Source:Wikipedia)</p>
+        <table>
+            <tr>
+                <th>#</th>
+                <th>Fact</th>
+                <th>Information</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Population</td>
+                <td>50,183</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Year the city was incorporated</td>
+                <td>1791</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Region of the state</td>
+                <td>South Central Pennsylvania</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>classification</td>
+                <td>Urban</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Average Income</td>
+                <td>30,270 USD (2022)</td>
+            </tr>
+        </table>
+        <h1>Fun Fact</h1>
+        <ol class="list-group">
+            <li class="list-group-item">Almost Captured By the Confederacy...Twice</li>
+            <li class="list-group-item">Believe it or not, Harrisburg was on the shortlist to become the nation’s capital. </li>
+            <li class="list-group-item">The Rockville Bridge in Harrisburg is the longest stone masonry arch railroad bridge in the world. 48 majestic arches measuring 70 feet each span the Susquehanna River.</li>
+        </ol>
+        <form id="myForm">
+            <h1>Contact Us</h1>
+            <p>Please enter information below:</p>
+            <label for="firstName">First name:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="First name">
+            <label for="lastName">Last name:</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Last name">
+            <label for="emailAddr">Email address:</label>
+            <input type="email" name="emailAddr" id="emailAddr" placeholder="Email address" onkeyup="checkemail()">
+            <label for="confirmEmail">Confirm your email:</label>
+            <input type="email" name="confirmEmail" id="confirmEmail" placeholder="Confirm your email" onkeyup="checkemail()">
+            <span id ="message"></span>
+            <label for="askQusetion">Ask a question:</label>
+            <input type="text" id="askQusetion" name="askQusetion" placeholder="Write your question here">        
+            <input type="button" id="submit" value="Submit">
+        </form>
+     </section>
+     <aside><h3 id="asideTitle">Information Links</h3>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a class="list-group" href="https://harrisburgpa.gov/" target="_blank">Goverment Offical Website</a>
+            </li>
+            <li class="list-group-item">
+                <a class="list-group" href="https://en.wikipedia.org/wiki/History_of_Harrisburg,_Pennsylvania" target="_blank">History</a>
+            </li>
+            <li class="list-group-item">
+                <a class="list-group" href="https://www.usnews.com/education/k12/pennsylvania/districts/harrisburg-city-sd-105781" target="_blank">Education</a>
+            </li>
+        </ul>
+     </aside>
+ </body>
+ </html>
